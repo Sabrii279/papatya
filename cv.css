@@ -1,0 +1,143 @@
+*{box-sizing: border-box;
+    margin:0px;
+	padding:0px;
+   
+}
+body{
+    background-color: #eeeded;
+}
+
+.navbar{
+    float: left;
+    padding: 30px;
+    font-family:'Vesper Libre', serif;
+    font-size: 18px;
+    line-height: 20px;
+    margin:auto;
+	width:102%;
+    align-content: center;
+    margin-bottom: 30px; ;
+    color: white;
+    background-color: black;
+
+}
+.navbar p{
+    color: rgb(255, 255, 255);
+    display:block;
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color:#2a281e;
+  }
+  
+  a:visited {
+    color:#695d00;
+  }
+
+h1 {
+    font-family:'League Gothic', sans-serif;
+    display:flex ;
+    align-items: center;
+    width:100% ;
+    margin: 50px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 60px;;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #FFF8B9;
+    background: size 100%;
+    min-height: 200px;
+    display: flex;
+    color: #000000;
+}
+button{
+    display:flex ;
+    align-items: right;
+    background-color: #FFF8B9;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: right;
+
+
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 200px; ;
+    background-color: #bebdb7
+}
+
+h3{
+    padding: 10px;
+    padding-left: 20px;
+    justify-content: left;
+    font-family: 'Vesper Libre', serif;
+    font-size: 30px;
+
+}
+
+li{
+    margin-left: 20px;
+    padding-left: 30px;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+
+}
+ol{
+    font-family: 'Lora', serif;
+    margin-left: 40px;
+
+
+}
+
+.aside_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px; ;
+    background-color: #bebdb7;
+    height: 300px;
+}
+
+
+.aside_right {
+    /**display: flex;
+    align-items: center;
+    justify-content: center;*/
+    max-width: 500px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 200px; ;
+    background-color: #bebdb7;
+    height: 900px;
+}
+
+
+footer {
+    
+    padding: 70px;
+    padding-top: 120px;
+    width: 40%;
+    float:left;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Vesper Libre', serif;
+    text-align: left;
+}
